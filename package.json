@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-randomizer-pnpm",
-	"version": "0.1.1",
+	"version": "0.1.4",
 	"description": "randomizer node for n8n for pnpm",
 	"keywords": [
 		"n8n-community-node-package",
@@ -38,15 +38,17 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"nodes": [
-			"dist/nodes/RandomizerNode/RandomizerNodePnpm.node.js"
+			"dist/nodes/RandomizerNodePnpm/RandomizerNodePnpm.node.js"
 		]
 	},
 	"devDependencies": {
+		"@types/express": "^4.17.6",
 		"@typescript-eslint/parser": "^7.15.0",
-		"eslint": "^8.56.0",
+		"@types/request-promise-native": "~1.0.15",
 		"eslint-plugin-n8n-nodes-base": "^1.16.1",
 		"gulp": "^4.0.2",
 		"n8n-workflow": "*",
+		"n8n-core": "*",
 		"prettier": "^3.3.2",
 		"typescript": "^5.5.3"
 	},

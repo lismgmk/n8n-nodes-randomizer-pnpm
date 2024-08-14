@@ -15,7 +15,7 @@ export class RandomizerNodePnpm implements INodeType {
 		version: 1,
 		description: 'Randomly directs input to multiple outputs based on given percentage or randomly',
 		defaults: {
-			name: 'Randomizer_pnpm',
+			name: 'RandomizerPnpm',
 		},
 		// eslint-disable-next-line n8n-nodes-base/node-class-description-inputs-wrong-regular-node
 		inputs: ['main', 'main'],
